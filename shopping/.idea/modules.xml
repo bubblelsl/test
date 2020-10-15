@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-common/shopping-common.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-common/shopping-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-manager/shopping-manager.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-manager/shopping-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-manager/shopping-manager-bean/shopping-manager-bean.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-manager/shopping-manager-bean/shopping-manager-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-manager/shopping-manager-mapper/shopping-manager-mapper.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-manager/shopping-manager-mapper/shopping-manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-manager/shopping-manager-service/shopping-manager-service.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-manager/shopping-manager-service/shopping-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-manager/shopping-manager-web/shopping-manager-web.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-manager/shopping-manager-web/shopping-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-parent.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-portal/shopping-portal.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-portal/shopping-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-rest/shopping-rest.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-rest/shopping-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-search/shopping-search.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-search/shopping-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-sso/shopping-sso.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-sso/shopping-sso.iml" />
+    </modules>
+  </component>
+</project>

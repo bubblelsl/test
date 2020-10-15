@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- mybatis的配置文件用的跟标签 -->
+<configuration>
+	<settings>
+		<setting name="logImpl" value="LOG4J"/>
+	</settings>
+	<typeAliases>
+		<!-- 一次給一個類型 取別名 -->
+		<!-- <typeAlias type="com.edu.bean.Students" alias="Students"/> -->
+		<!-- 
+			採用掃描的方式給com.edu.bean下面所有的類都去了別名，
+			默認別名為類的名稱或者類的首字母小寫
+			當前的別名就是: Students 或者students
+		 -->
+		<package name="com.edu.bean"/>
+	</typeAliases>
+	<plugins>
+    <!-- com.github.pagehelper为PageHelper类所在包名 -->
+    <plugin interceptor="com.github.pagehelper.PageHelper">
+        <!-- 使用下面的方式配置参数，后面会有所有的参数介绍 -->
+        <property name="reasonable" value="true"/>
+	</plugin>
+</plugins>
+	
+	
+</configuration>
